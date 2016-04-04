@@ -13,6 +13,8 @@ when x=100000
 sort(): 0.04 seconds
 insertion_sort(): 128.21 seconds 
 
+(1000000 takes too long time)
+
 explanation:
 if n<100, then O(n^2) is more efficient, but if n>=100, then O(n*log2n) is more efficient.
 and if the number isnt too big, we can just use insertionsort, otherwise, we should 
